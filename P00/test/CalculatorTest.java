@@ -63,7 +63,7 @@ public class CalculatorTest {
 		Calculator cal = new Calculator();
 		int actual = cal.divide(a, b);
 		
-		int expected = 2;
+		int expected = 100;
 		assertEquals(actual, expected);
 	}
 
